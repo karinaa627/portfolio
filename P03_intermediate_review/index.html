@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="nav3-div" >
+      <nav>
+
+      <div>
+       <a class="nav-item1" href="index.html">styleguide</a>
+       </div>
+
+        <div>
+       <a class="nav-item2" href="#cart">about</a>
+       </div>
+
+       <div>
+       <a class="nav-item3" href="#contact">projects</a>
+       </div>
+
+       <div>
+       <a href="homepage.html" id="nav-logo">home</a>
+       </div>
+
+      </nav>
+
+    </header>
+
+        <div class="nav-div" id="home">
+          <nav>
+            <a class="nav-link" href="#interactive_elements">Interactive Elements</a>
+            <a class="nav-link" href="#text_elements">Text Elements</a>
+            <a class="nav-link" href="#combined_elements">Combined Elements</a>
+            <a class="nav-link" href="#branding">Branding</a>
+            <a class="nav-link" href="#citations">Citations</a>
+          </nav>
+        </div>
+
+      <h1>karina shuen</h1>
+      <h2>product designer</h2>
+
+      <p>specialized product designer adept at crafting models to address challenges
+        by seamlessly incorporating user feedback into physical prototypes</p>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link:</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="https://hellokitty.fandom.com/wiki/Cinnamoroll" target="_blank">here!;/a&gt;</code>
+
+        <h4>
+            View process analysis
+            <a class = "text-link" href="https://hellokitty.fandom.com/wiki/Cinnamoroll" target="_blank">here!</a>
+        </h4>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">projects</a>
+        <a class="button-nav" href="#">about</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.lamp</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a target="_blank" href="https://images.app.goo.gl/oR83V6yJNqxkFrd47"img src="img/image1.png" alt="Lamp" &gt;</code>
+
+        <figure>
+          <a target="_blank" href="https://images.app.goo.gl/oR83V6yJNqxkFrd47"><img src="img/image1.png" alt="Lamp" id="lamp"></a>
+        </figure>
+      </section>
+
+
+    </section>
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <h4>CSS selector:</h4>
+      <p>h1,h2,h3,h4</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;h1Heading 1/h1 &gt;</code>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+      </section>
+
+      <!-- text source: https://hellokitty.fandom.com/wiki/Cinnamoroll -->
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>h2</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;pCinnamoroll is a Sanrio character and a member of the Cinnamoroll universe. He was born on March 6, on a cloud far up in the sky./p &gt;</code>
+
+        <p>
+          Cinnamoroll is a Sanrio character and a member of the Cinnamoroll universe. He was born on March 6, on a cloud far up in the sky.
+          He is a small, shy and chubby dog with white fur, blue eyes, pink cheeks, a plump and curly tail that resembles a cinnamon roll (hence his name), and long ears that enable him to fly.
+          Cinnamon is shy but friendly, and always willing to help out his friends when they need it.
+        </p>
+      </section>
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.nav-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#home"Home/a a href="#blind_boxes"Blind Boxes/a a href="#collections"Collections/a &gt;</code>
+
+        <div class="nav2-div" >
+        <nav>
+
+        <div>
+         <a class="nav-item1" href="cinnabox.html">styleguide</a>
+         </div>
+
+          <div>
+         <a class="nav-item2" href="#cart">about</a>
+         </div>
+
+         <div>
+         <a class="nav-item3" href="#contact">projects</a>
+         </div>
+
+         <div>
+         <a href="homepage.html" id="nav-logo">home</a>
+         </div>
+
+        </nav>
+      </div>
+      </section>
+
+    <!-- // ABOUT SECTION -->
+    <section id="about">
+        <h2>About</h2>
+        <h4>hi! i'm karina</h4>
+        <p>Cinnabox is an online shop that sells collectable blind box figures of the Sanrio character, Cinnamoroll and his friends.
+        There are many different series to chose from. Test your luck to get your favorite character or collect the whole family!</p>
+
+      <section class="element">
+        <h3>Fonts</h3>
+        <h1>Marshland Beauty</h1>
+        <h2>Office Code Pro</h2>
+        <p>Metropolis</p>
+      </section>
+
+      <section class="element">
+        <h3>Colour Palette</h3>
+        <div class="colour1 palette-container">
+          <p class="palette-p white-text">Primary<br>#374375</p>
+        </div>
+        <div class="colour2 palette-container">
+          <p class="palette-p">Background<br>#9D9CB6</p>
+        </div>
+        <div class="colour3 palette-container">
+          <p class="palette-p">Secondary<br>#D3D9F1</p>
+        </div>
+        <div class="colour4 palette-container">
+          <p class="palette-p">Secondary<br>#FFFCF5</p>
+        </div>
+      </section>
+      <section class="element">
+      <h4>Potential imagery, and, or, art direction</h4>
+      <p> The art direction for Cinnabox is very playful. It incoorporates rounded fonts that provide a very youthful energy. The colour palette contains a wide array of pastel colours to match the packaging of the products and create a magical world for customers to connect with their inner child. </p>
+      </section>
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Rowland, Dave. Designer. (2024).<strong>Gelica[Font].</strong> Retrieved from <a href="https://fonts.adobe.com/fonts/gelica">https://fonts.adobe.com/fonts/gelica</a></li>
+        <li>Huang, Wei. Designer. (2020).<strong>Work Sans [Font].</strong> Retrieved from <a href="https://fonts.google.com/specimen/Work+Sans">https://fonts.google.com/specimen/Work+Sans</a></li>
+        <li>Blind Box Empire. (2024).<strong>Cinnamoroll Weekend Plans Blind Box [Image].</strong> Retrieved from <a href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box">https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box</a></li>
+        <li>Blind Box Empire. (2024).<strong>Moetch Cinnamoroll Decompression Club Series [Image].</strong> Retrieved from <a href="https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series">https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series</a></li>
+        <li>Art Box. (2024).<strong>Moetch Cinnamoroll Decompression Club Series [Image].</strong> Retrieved from <a href="https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html">https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html</a></li>
+        <li>Hello Kitty Wiki. (2024).<strong>Cinnamoroll [Image].</strong> Retrieved from <a href="https://hellokitty.fandom.com/wiki/Cinnamoroll">https://hellokitty.fandom.com/wiki/Cinnamoroll</a></li>
+        <li><a href="https://www.w3schools.com/tags/tag_label.asp">https://www.w3schools.com/tags/tag_label.asp</a>.</li>
+        <li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio">https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio</a>.</li>
+        <li><a href="https://hellokitty.fandom.com/wiki/Cinnamoroll">https://hellokitty.fandom.com/wiki/Cinnamoroll</a>.</li>
+      </ul>
+
+    </section>
+  </body>
+</html>
